@@ -1,69 +1,104 @@
-body{
-  background-color: #fff;
-}
-
-.gameboard {
-  width: 75%;
-  margin-top: 2em;
-  background-color: #eeeeee;
-  height: 600px;
+.gameboard{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #eee;
+    height: 600px;
 }
 
 .container {
-  width: 80%;
-  padding: 1em;
-  margin: .25em;
-  height: 100%;
+    display: grid;
+    height: 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+            "playerScore computerScore output"
+            "playerScore computerScore output"
+            "rock paper scissors";
 }
 
-.scoreboard {
-  height: 40%;
-  background-color: #555555;
-  margin: .25em;
-  padding: .25em;
+.rock {
+    grid-area: rock;
+    //background-color: saddlebrown;
 }
 
-.scoreholder {
-  width: 30%;
-  margin: .1em;
-  padding: .1em;
+.paper {
+    grid-area: paper;
+    //background-color: floralwhite;
 }
 
-.score {
-  width: 50%;
-  margin: .05em;
-  padding: .1em;
+.scissors {
+    grid-area: scissors;
+    //background-color: silver;
 }
 
 .player-score {
-  float: left;
-  color: #01de66;
+    grid-area: playerScore;
+    background-color: #bbdefb;
 }
 
 .computer-score {
-  float: right;
-  color: #ef2211;
+    grid-area: computerScore;
+    background-color: #bbdefb;
 }
 
 .output {
-  width: 70%;
-  background-color: #333333;
-  color: #ffffff;
-  margin: .1em;
-  padding: .1em;
+    grid-area: output;
+    background-color: #ffa726;
 }
 
-.play-area {
-  height: 60%;
-  margin: 1em;
-  padding: 1em;
+/* Material style */
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 2px;
+    font-size: 22px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    background: #2196F3;
 }
 
-.game-button {
-  color: #222;
-  background-color: #ffffff;
-  margin: .125em;
-  padding: .1em;
+/* Ripple magic */
+button{
+    position: relative;
+    overflow: hidden;
 }
 
+button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, .5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
 
+@keyframes ripple {
+    0% {
+        transform: scale(0, 0);
+        opacity: 1;
+    }
+    20% {
+        transform: scale(25, 25);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(40, 40);
+    }
+}
+
+button:focus:not(:active)::after {
+    animation: ripple 1s ease-out;
+}
+
+.game-log-item {
+    padding-left: 5px;
+    color: #333333;
+
+}

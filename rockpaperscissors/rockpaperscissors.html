@@ -3,80 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
-    <script type="application/javascript">
-        function game (){
-            console.log("Henlo, it's Rock Paper Scissors Time! Best of 5 Rounds.");
-            var playerWins = 0;
-            var computerWins = 0;
-            for(var i = 0; i <= 4; i++){
-                console.log("Round " + (i+1).toString() + " of 5!\nPick a move please.");
-                var move = prompt("Rock, Paper, or Scissors?");
-                if(playRound(move, computerPlay() === "player")){
-                    playerWins++;
-                } else{
-                    computerWins++;
-                }
-            }
-            console.log("Final Score:\nPlayer: " + playerWins.toString() +"\nComputer: " + computerWins.toString());
-            if(playerWins > computerWins){
-                console.log("Player Wins! :)");
-            } else {
-                console.log("Computer Wins! :(")
-            }
-        }
-
-        function computerPlay() {
-            var roll = Math.floor(Math.random() * 3);
-            if(roll === 0){
-                return 'rock'
-            } else if (roll === 1){
-                return 'paper'
-            } else {
-                return 'scissors'
-            }
-        }
-
-        function playRound(playerSelection, computerSelection){
-            playerSelection = playerSelection.toLowerCase();
-            if(playerSelection === computerSelection){
-                console.log("Draw!");
-                return "Draw"
-            } else if(playerSelection === 'rock'){
-                if(computerSelection === 'paper') {
-                    console.log("You Lose! Paper beats Rock");
-                    return "computer";
-                }
-                if(computerSelection === 'scissors'){
-                    console.log("You Win! Rock beats Scissors");
-                    return "player";
-                }
-            } else if(playerSelection === 'paper'){
-                if(computerSelection === 'rock') {
-                    console.log("You Win! Paper beats Rock");
-                    return "player";
-                }
-                if(computerSelection === 'scissors'){
-                    console.log("You Lose! Scissors beats Paper");
-                    return "computer";
-                }
-            } else if(playerSelection === 'scissors'){
-                if(computerSelection === 'rock') {
-                    console.log("You Lose! Rock beats Scissors");
-                    return "computer";
-                }
-                if(computerSelection === 'paper'){
-                    console.log("You Win! Scissors beats Paper");
-                    return "player";
-                }
-            } else {
-                console.log("You didn't enter a correct choice therefor you forfeit");
-                return "computer";
-            }
-
-        }
-    </script>
+    <link rel="stylesheet" type="text/css" href="rockpaperscissors.css">
+    <script type="application/javascript" src="roshambo.js"></script>
 </head>
-<body onload="game()">
-
+<body onload="createEventListeners();">
+<div class="gameboard">
+    <div class="container">
+        <div id="player-score" class="item player-score">
+        </div>
+        <div id="computer-score" class="item computer-score">
+        </div>
+        <div id="game-log" class="item output">
+        </div>
+        <button id="rock" class="item game-btn rock">
+            rock
+        </button>
+        <button id="paper" class="item game-btn paper">
+            paper
+        </button>
+        <button id="scissors" class="item game-btn scissors">
+            scissors
+        </button>
+    </div>
+</div>
 </body>
 </html>
