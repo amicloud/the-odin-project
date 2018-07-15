@@ -4,27 +4,46 @@
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" type="text/css" href="rockpaperscissors.css">
-    <script type="application/javascript" src="roshambo.js"></script>
 </head>
 <body onload="createEventListeners();">
-<div class="gameboard">
-    <div class="container">
-        <div id="player-score" class="item player-score">
+    <div class="gameboard">
+        <div class="container">
+            <div class="player-label">
+                <div class="label-content">Player</div>
+            </div>
+            <div class="computer-label">
+                <div class="label-content">Computer</div>
+            </div>
+            <div  class="item player-score-holder">
+                <div id="player-score" class="score player-score"></div>
+            </div>
+            <div  class="item computer-score-holder">
+                <div id="computer-score" class="score computer-score"></div>
+            </div>
+            <div id="game-log" class="item output">
+            </div>
+            <button id="rock" class="item game-btn rock">
+                rock
+            </button>
+            <button id="paper" class="item game-btn paper">
+                paper
+            </button>
+            <button id="scissors" class="item game-btn scissors">
+                scissors
+            </button>
         </div>
-        <div id="computer-score" class="item computer-score">
-        </div>
-        <div id="game-log" class="item output">
-        </div>
-        <button id="rock" class="item game-btn rock">
-            rock
-        </button>
-        <button id="paper" class="item game-btn paper">
-            paper
-        </button>
-        <button id="scissors" class="item game-btn scissors">
-            scissors
-        </button>
     </div>
-</div>
+    <div id="popDiv" class="disablepagediv">
+        <div class="masterpopup">
+            <div class="popupBar">
+            </div>
+            <div align="center" style="padding-top:5px">
+                <div id="winner"></div>
+                <br/>
+                <input type="button" style="margin:5px" onClick="hide('popDiv'); reset();" value="Play Again" />
+            </div>
+        </div>
+    </div>
+    <script type="application/javascript" src="roshambo.js"></script>
 </body>
 </html>
