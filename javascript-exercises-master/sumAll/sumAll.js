@@ -4,8 +4,8 @@ var sumAll = function(bound1, bound2) {
     }
     let start, end, sum = 0;
     if(bound1 > bound2){
-        end = bound1;
         start = bound2;
+        end = bound1;
     } else{
         start = bound1;
         end = bound2;

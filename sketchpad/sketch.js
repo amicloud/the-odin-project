@@ -58,10 +58,3 @@ function clear(){
         pixel.classList.add('pixel-off');
     }
 }
-
-function removeAllChildElements(element){
-    const myNode = document.getElementById(element);
-    while (myNode.firstChild) {
-        myNode.removeChild(myNode.firstChild);
-    }
-}
