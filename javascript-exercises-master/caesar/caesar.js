@@ -7,7 +7,4 @@ let  caesar = function(str, shift) {
     return str;
 };
 
-
-
 module.exports = caesar;
-
