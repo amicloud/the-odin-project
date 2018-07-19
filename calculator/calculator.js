@@ -2,6 +2,11 @@ const buttonHolder = document.getElementById('button-holder');
 const historyContainer = document.getElementById('calculator-history');
 const display = document.getElementById('display');
 const base = 10;
+const xRegisterSize = 16; //This is effectively the character limit of the display as well
+let xReg = 0;
+let yReg = 0;
+updateXRegister(xReg);
+
 const buttons = [
     new Button('%', 'f',  null, null),
     new Button('√', 'f',  null, null),
@@ -9,7 +14,7 @@ const buttons = [
     new Button('¹/ₓ', 'f', null, null),
     new Button('CE', 'f', null, null),
     new Button('C', 'f',  null, null),
-    new Button('⌫', 'f', null, null),
+    new Button('⌫', 'f', backspace, null),
     new Button('/', 'f',  null, null),
     new Button('7', 'n',  pushToXRegister, 7),
     new Button('8', 'n',  pushToXRegister, 8),
@@ -28,14 +33,26 @@ const buttons = [
     new Button('.', 'f',  null, null),
     new Button('=', 'f',  null, null)
 ];
-let xReg = 0;
-let yReg = 0;
+
+function backspace() {
+    let x = parseInt(xReg.toString().slice(0, -1));
+    updateXRegister(x ? x : 0);
+}
 
 function pushToXRegister(val){
-    xReg = (xReg * base) + val;
+    let newXreg = (xReg * base) + val;
+    if(Math.log10(newXreg) >= xRegisterSize){
+        console.log('Register overflow prevented');
+        return;
+    }
+    updateXRegister(newXreg);
     console.log(val);
-    display.innerHTML = xReg;
     console.log(`Pushed ${val} to X Register`);
+}
+
+function updateXRegister(val){
+    xReg = val;
+    display.innerHTML = val;
 }
 
 function pushToYRegister(val){
