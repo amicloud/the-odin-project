@@ -44,9 +44,8 @@ const buttons = [
 
 function UnaryOperators() {
     this.squareRoot = () => {
-        updateFlag(flags.sqrt);
-        updateYRegister(xReg);
-        updateXRegister(Math.sqrt(yReg));
+        // updateFlag(flags.sqrt);
+        updateXRegister(Math.sqrt(xReg));
         clearOnNextNumber = true;
     };
     this.invertSign = () => {
@@ -54,21 +53,18 @@ function UnaryOperators() {
         clearOnNextNumber = true;
     };
     this.inverse = () => {
-        updateFlag(flags.inverse);
-        updateYRegister(xReg);
-        updateXRegister(1 / yReg);
+        // updateFlag(flags.inverse);
+        updateXRegister(1 / xReg);
         clearOnNextNumber = true;
     };
     this.square = () => {
-        updateFlag(flags.square);
-        updateYRegister(xReg);
-        updateXRegister(Math.pow(yReg, 2));
+        // updateFlag(flags.square);
+        updateXRegister(Math.pow(xReg, 2));
         clearOnNextNumber = true;
     };
     this.ln = () => {
-        updateFlag(flags.ln);
-        updateYRegister(xReg);
-        updateXRegister(Math.log(yReg));
+        // updateFlag(flags.ln);
+        updateXRegister(Math.log(xReg));
         clearOnNextNumber = true;
     };
 }
