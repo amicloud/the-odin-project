@@ -14,6 +14,6 @@ var sumAll = function(bound1, bound2) {
         sum += i;
     }
     return sum;
-}
+};
 
-module.exports = sumAll
+module.exports = sumAll;

@@ -1,8 +1,8 @@
-var <%= title %> = require('./<%=title%>')
+var <;%= title %> = require('./<%=title%>');
 
 describe('<%=title%>', function() {
   it('EDITME', function() {
-    expect(<%=title%>()).toEqual(' ');
+    expect(<%=title%>();).toEqual(' ');
   });
 
 });

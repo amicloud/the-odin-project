@@ -13,4 +13,4 @@ let fibonacci = function(n) {
     return sequence[sequence.length-1];
 };
 
-module.exports = fibonacci
+module.exports = fibonacci;

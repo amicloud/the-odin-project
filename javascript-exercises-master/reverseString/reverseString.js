@@ -4,6 +4,6 @@ var reverseString = function(input) {
         builtString += input[i];
     }
     return builtString;
-}
+};
 
-module.exports = reverseString
+module.exports = reverseString;

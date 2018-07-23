@@ -11,6 +11,6 @@ var removeFromArray = function(arr, toRemove) {
         }
     }
     return cleaned;
-}
+};
 
-module.exports = removeFromArray
+module.exports = removeFromArray;

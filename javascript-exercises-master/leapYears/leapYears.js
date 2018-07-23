@@ -9,6 +9,6 @@ var leapYears = function(year) {
         return true;
     }
 
-}
+};
 
-module.exports = leapYears
+module.exports = leapYears;

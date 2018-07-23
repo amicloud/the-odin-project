@@ -10,6 +10,6 @@ var repeatString = function(input, repeats) {
         builtString += input;
     }
     return builtString;
-}
+};
 
-module.exports = repeatString
+module.exports = repeatString;

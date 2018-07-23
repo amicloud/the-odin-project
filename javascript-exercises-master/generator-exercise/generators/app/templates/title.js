@@ -1,5 +1,5 @@
-var <%= title %> = function() {
+var <;%= title %> = function() {
 
-}
+};
 
-module.exports = <%= title %>
+module.exports =; <%= title %>;
