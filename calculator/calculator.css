@@ -44,7 +44,6 @@ html {
     font-weight: 300;
 }
 
-
 #display-holder {
     display: flex;
     flex-flow: column nowrap;
@@ -82,7 +81,7 @@ html {
     padding-right: 10px;
 }
 
-#display-holder > div > div{
+#display-holder > div > div {
     margin: auto 0;
     padding-right: 5px;
 }
@@ -127,20 +126,19 @@ html {
 
 .button-function {
     font-weight: 400;
-    background-color: #f7f7f7 !important;
+    background-color: #e3e3e3 !important;
 }
 
-.button-function:hover{
-    background-color: #dfdfdf !important;
-    /*background-color: #ff0000 !important;*/
+.button-function:hover {
+    background-color: #c5c5c5 !important;
 }
 
-.button-function:active{
+.button-function:active {
     background-color: #ACACAC !important;
 }
 
 .button-number {
-    background-color: #ffffff !important;
+    background-color: #f1f1f1 !important;
     font-weight: 900;
 }
 
@@ -148,50 +146,7 @@ html {
     background-color: #D5D5D5 !important;
 }
 
-.button-number:active{
+.button-number:active {
     background-color: #BFBFBF !important;
 
-}
-
-.button-disabled {
-    background-color: #D5D5D5!important;
-}
-
-/* Ripple magic */
-.calculator-button{
-    position: relative;
-    overflow: hidden;
-}
-
-.calculator-button:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 2px;
-    height: 2px;
-    background: rgba(255, 255, 255, .5);
-    opacity: 0;
-    border-radius: 100%;
-    transform: scale(1, 1) translate(-50%);
-    transform-origin: 50% 50%;
-}
-
-@keyframes ripple {
-    0% {
-        transform: scale(0, 0);
-        opacity: 1;
-    }
-    20% {
-        transform: scale(25, 25);
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        transform: scale(40, 40);
-    }
-}
-
-.calculator-button:focus:not(:active)::after {
-    animation: ripple 1s ease-out;
 }

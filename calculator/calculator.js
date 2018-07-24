@@ -2,45 +2,14 @@ const buttonHolder = document.getElementById('button-holder');
 const displayX = document.getElementById('display-x');
 const displayY = document.getElementById('display-y');
 const displayFlag = document.getElementById('display-flag');
-const base = 10;
-const xRegisterSize = 12;
-let decimalOn = false;
-let xReg = 0, prevXReg = 0, yReg = 0, prevYReg = 0;
+const base = 10, xRegisterSize = 12;
+let decimalOn, clearOnNextNumber, xReg, prevXReg, yReg, prevYReg, currentFlag, prevFlag;
 const flags = {
     none: '', addition: '+', subtraction: '-', multiplication: 'x', division: '/',
     percent: '%', sqrt: '√', ln: 'ln', inverse: '¹/ₓ', square: '²', invertSign: '±'
 };
-let currentFlag, prevFlag = flags.none;
 const unaryOperators = new UnaryOperators();
 const binaryOperators = new BinaryOperators();
-let clearOnNextNumber = false;
-
-const buttons = [
-    new Button('ln', 'button-function', unaryOperators.ln, null, ['l']),
-    new Button('√', 'button-function', unaryOperators.squareRoot, null, ['S']),
-    new Button('x²', 'button-function', unaryOperators.square, null, ['s']),
-    new Button('¹/ₓ', 'button-function', unaryOperators.inverse, null, ['?']),
-    new Button('CE', 'button-function', clearEntry, null, ['c']),
-    new Button('C', 'button-function', clearAll, null, ['C']),
-    new Button('⌫', 'button-function', backspace, null, ['Backspace', 'ArrowLeft']),
-    new Button('/', 'button-function', binaryOperators.division, null, ['/']),
-    new Button('7', 'button-number', pushToXRegister, 7, ['7']),
-    new Button('8', 'button-number', pushToXRegister, 8, ['8']),
-    new Button('9', 'button-number', pushToXRegister, 9, ['9']),
-    new Button('X', 'button-function', binaryOperators.multiplication, null, ['x', '*']),
-    new Button('4', 'button-number', pushToXRegister, 4, ['4']),
-    new Button('5', 'button-number', pushToXRegister, 5, ['5']),
-    new Button('6', 'button-number', pushToXRegister, 6, ['6']),
-    new Button('-', 'button-function', binaryOperators.subtraction, '-'),
-    new Button('1', 'button-number', pushToXRegister, 1, ['1']),
-    new Button('2', 'button-number', pushToXRegister, 2, ['2']),
-    new Button('3', 'button-number', pushToXRegister, 3, ['3']),
-    new Button('+', 'button-function', binaryOperators.addition, null, ['+']),
-    new Button('±', 'button-function', unaryOperators.invertSign, null, ['_']),
-    new Button('0', 'button-number', pushToXRegister, 0, ['0']),
-    new Button('.', 'button-function', decimal, null, ['.']),
-    new Button('=', 'button-function', binaryOperators.equals, null, ['=', 'Enter', ' ', 'ArrowRight'])
-];
 
 function UnaryOperators() {
     this.squareRoot = () => {
@@ -139,23 +108,23 @@ function clearAll() {
     updateXRegister(0);
     updateYRegister(0);
     updateFlag(flags.none);
+    prevFlag = flags.none;
+    decimalOn = false;
+    clearOnNextNumber = false;
     prevXReg = 0;
     prevYReg = 0;
 }
 
 function decimal() {
-    if (decimalOn) {
-
-    } else {
-        if(xReg.toString().includes('.')) return;
+    if(!decimalOn){
+        if (xReg.toString().includes('.')) return;
         decimalOn = true;
         displayX.innerHTML = displayX.innerHTML.slice(0, -4) + '.' + '</p>';
     }
 }
 
 function updateXRegister(val) {
-    xReg = val;
-    xReg = isNaN(xReg) ? undefined : xReg;
+    xReg = isNaN(val) ? undefined : val;
     let pContents = xReg === undefined ? 'undefined' : xReg.toString();
     if (pContents.length > xRegisterSize) {
         displayX.style.fontSize = '.55em'
@@ -175,11 +144,9 @@ function pushToXRegister(val) {
     let newXReg = 0;
     if (xReg.toString().includes('.') || decimalOn) {
         let fracDigits = xReg.toString().includes(".") ? xReg.toString().match(/\.([0-9]+)/)[1].length : 0;
-        if(val === 0){
+        if (val === 0) {
             newXReg = Number(xReg).toFixed(fracDigits + 1);
         } else {
-            // newXReg = xReg >= 0 ? xReg + (val / Math.pow(10, fracDigits + 1)) : xReg - (val / Math.pow(10, fracDigits + 1));
-            // if(xReg.toString().includes('.'))
             newXReg = xReg.toString().includes('.') ? Number(xReg).toFixed(fracDigits) + val.toString() : Number(xReg).toFixed(fracDigits) + '.' + val.toString();
         }
     } else {
@@ -198,14 +165,13 @@ function updateFlag(flag) {
 }
 
 function updateYRegister(val) {
-    yReg = val;
-    yReg = isNaN(yReg) ? undefined : yReg;
+    yReg = isNaN(val) ? undefined : val;
     let contents = yReg === undefined ? 'undefined' : yReg ? yReg.toString() : '';
     contents = contents.convertToRegularScientificNotation();
     displayY.innerHTML = contents;
 }
 
-String.prototype.convertToRegularScientificNotation = function() {
+String.prototype.convertToRegularScientificNotation = function () {
     return this.replace(/([.0-9]+)e\+([0-9]+)/, "$1 * 10<sup>$2</sup>");
 };
 
@@ -221,7 +187,32 @@ function Button(label, cssClass, func, val = null, keyCodes = []) {
     }
 }
 
-
+const buttons = [
+    new Button('ln', 'button-function', unaryOperators.ln, null, ['l']),
+    new Button('√', 'button-function', unaryOperators.squareRoot, null, ['S']),
+    new Button('x²', 'button-function', unaryOperators.square, null, ['s']),
+    new Button('¹/ₓ', 'button-function', unaryOperators.inverse, null, ['?']),
+    new Button('CE', 'button-function', clearEntry, null, ['c']),
+    new Button('C', 'button-function', clearAll, null, ['C']),
+    new Button('⌫', 'button-function', backspace, null, ['Backspace', 'ArrowLeft']),
+    new Button('/', 'button-function', binaryOperators.division, null, ['/']),
+    new Button('7', 'button-number', pushToXRegister, 7, ['7']),
+    new Button('8', 'button-number', pushToXRegister, 8, ['8']),
+    new Button('9', 'button-number', pushToXRegister, 9, ['9']),
+    new Button('X', 'button-function', binaryOperators.multiplication, null, ['x', '*']),
+    new Button('4', 'button-number', pushToXRegister, 4, ['4']),
+    new Button('5', 'button-number', pushToXRegister, 5, ['5']),
+    new Button('6', 'button-number', pushToXRegister, 6, ['6']),
+    new Button('-', 'button-function', binaryOperators.subtraction, '-'),
+    new Button('1', 'button-number', pushToXRegister, 1, ['1']),
+    new Button('2', 'button-number', pushToXRegister, 2, ['2']),
+    new Button('3', 'button-number', pushToXRegister, 3, ['3']),
+    new Button('+', 'button-function', binaryOperators.addition, null, ['+']),
+    new Button('±', 'button-function', unaryOperators.invertSign, null, ['_']),
+    new Button('0', 'button-number', pushToXRegister, 0, ['0']),
+    new Button('.', 'button-function', decimal, null, ['.']),
+    new Button('=', 'button-function', binaryOperators.equals, null, ['=', 'Enter', ' ', 'ArrowRight'])
+];
 
 function createDisplayButton(btn) {
     let button = document.createElement('div');
@@ -250,13 +241,11 @@ function populateButtons() {
 function init() {
     populateButtons();
     clearAll();
-    window.addEventListener('keydown', function(event) {
-        console.log(event.key);
+    window.addEventListener('keydown', function (event) {
         let button = buttons.filter((b) => {
-            // console.log(b.keyCodes);
             return b.keyCodes.includes(event.key)
         });
-        if(button[0]) {
+        if (button[0]) {
             button[0].onClick();
         }
     });
