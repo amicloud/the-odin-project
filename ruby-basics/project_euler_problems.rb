@@ -23,7 +23,7 @@ def problem_2 #- Done
   puts sum
 end
 
-def problem_3 #- In Progress
+def problem_3 #- Done
   n = 600851475143
   upper_bound = Math.sqrt(n).floor - 1
   (3..upper_bound).to_a.reverse.each {|i|
