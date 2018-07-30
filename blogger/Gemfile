@@ -33,6 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Paperclip for attachments
+# Annoyingly, it has been deprecated since this tutorial was written.
+# Not working on my Win10 dev machine, works fine on linux servers so whatever
+gem 'paperclip'
+
+# Use Sorcery for authentication per the tutorial
+gem 'sorcery'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

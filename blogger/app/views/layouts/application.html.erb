@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Blogger</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+</head>
 
-  <body>
-      <p class="flash"><%= flash.notice %></p>
-      <%= yield %>
-  </body>
+<body>
+    <p class="flash"><%= flash.notice %></p>
+    <%= yield %>
+    <br/>
+    <hr>
+    <h6>
+        <% if logged_in? %>
+            <%= "Logged in as #{current_user.email}" %>
+            <%= link_to "(logout)", logout_path %>
+        <% else %>
+            <%= link_to "(login)", login_path %>
+        <% end %>
+    </h6>
+
+</body>
 </html>
