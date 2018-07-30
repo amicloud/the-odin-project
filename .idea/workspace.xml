@@ -2,33 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/blogger.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/tags.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/tags.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/tags_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tag.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tagging.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025812_create_tags.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025907_create_taggings.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/tags_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/taggings.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/tags.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tag_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tagging_test.rb" />
-      <change beforePath="$PROJECT_DIR$/.idea/odinproject.iml" afterPath="$PROJECT_DIR$/.idea/odinproject.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/blogger.iml" afterPath="$PROJECT_DIR$/.idea/modules/blogger.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/.generators" afterPath="$PROJECT_DIR$/blogger/.idea/.generators" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" />
+      <change beforePath="$PROJECT_DIR$/blogger/Gemfile" afterPath="$PROJECT_DIR$/blogger/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/blogger/Gemfile.lock" afterPath="$PROJECT_DIR$/blogger/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/blogger/README.md" afterPath="$PROJECT_DIR$/blogger/README.md" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" />
       <change beforePath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" afterPath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
       <change beforePath="$PROJECT_DIR$/blogger/app/models/article.rb" afterPath="$PROJECT_DIR$/blogger/app/models/article.rb" />
       <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
       <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/routes.rb" afterPath="$PROJECT_DIR$/blogger/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" afterPath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/development.rb" afterPath="$PROJECT_DIR$/blogger/config/environments/development.rb" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/production.rb" afterPath="$PROJECT_DIR$/blogger/config/environments/production.rb" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/test.rb" afterPath="$PROJECT_DIR$/blogger/config/environments/test.rb" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/puma.rb" afterPath="$PROJECT_DIR$/blogger/config/puma.rb" />
       <change beforePath="$PROJECT_DIR$/blogger/db/schema.rb" afterPath="$PROJECT_DIR$/blogger/db/schema.rb" />
-      <change beforePath="$PROJECT_DIR$/ruby-basics/project_euler_problems.rb" afterPath="$PROJECT_DIR$/ruby-basics/project_euler_problems.rb" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/404.html" afterPath="$PROJECT_DIR$/blogger/public/404.html" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/422.html" afterPath="$PROJECT_DIR$/blogger/public/422.html" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/500.html" afterPath="$PROJECT_DIR$/blogger/public/500.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,77 +55,57 @@
     <SUITE FILE_PATH="coverage/odinproject@Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1532410155680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@project_euler_problems.coverage" NAME="project_euler_problems Coverage Results" MODIFIED="1532409471878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-basics" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@temperature_conversion_functions__odinproject.coverage" NAME="temperature conversion functions: odinproject Coverage Results" MODIFIED="1532412737442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/01_temperature" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@Development__blogger.coverage" NAME="Development: blogger Coverage Results" MODIFIED="1532803816417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blogger" MODULE_NAME="blogger" />
+    <SUITE FILE_PATH="coverage/odinproject@Development__blogger.coverage" NAME="Development: blogger Coverage Results" MODIFIED="1532921529817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blogger" MODULE_NAME="blogger" />
     <SUITE FILE_PATH="coverage/odinproject@Run_spec__simon_says_spec___odinproject.coverage" NAME="Run spec 'simon_says_spec': odinproject Coverage Results" MODIFIED="1532415113348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/03_simon_says" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@_translate__odinproject.coverage" NAME="#translate: odinproject Coverage Results" MODIFIED="1532415911081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/04_pig_latin" MODULE_NAME="odinproject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="150" lean-forward="false" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="493">
+              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/show.html.erb">
+      <file leaf-file-name="article.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogger/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+              <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tag.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blogger/app/models/tag.rb">
+      <file leaf-file-name="articles_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="34">
+              <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -159,6 +138,7 @@
       <find>500</find>
       <find>+ '.</find>
       <find>?</find>
+      <find>paper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,10 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript-exercises-master/calculator/calculator.js" />
-        <option value="$PROJECT_DIR$/javascript-exercises-master/palindromes/palindromes.spec.js" />
-        <option value="$PROJECT_DIR$/javascript-exercises-master/snakeCase/snakeCase.spec.js" />
-        <option value="$PROJECT_DIR$/javascript-exercises-master/snakeCase/snakeCase.js" />
         <option value="$PROJECT_DIR$/javascript-exercises-master/sumAll/sumAll.js" />
         <option value="$PROJECT_DIR$/javascript-exercises-master/palindromes/palindromes.js" />
         <option value="$PROJECT_DIR$/javascript-exercises-master/caesar/caesar.spec.js" />
@@ -214,16 +190,20 @@
         <option value="$PROJECT_DIR$/blogger/app/views/articles/_comment.html.erb" />
         <option value="$PROJECT_DIR$/ruby-basics/project_euler_problems.rb" />
         <option value="$PROJECT_DIR$/learn-ruby/04_pig_latin/pig_latin.rb" />
-        <option value="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
-        <option value="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
-        <option value="$PROJECT_DIR$/blogger/app/models/article.rb" />
         <option value="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" />
         <option value="$PROJECT_DIR$/blogger/config/routes.rb" />
-        <option value="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" />
         <option value="$PROJECT_DIR$/blogger/app/models/tag.rb" />
+        <option value="$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" />
+        <option value="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
+        <option value="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" />
+        <option value="$PROJECT_DIR$/blogger/Gemfile" />
+        <option value="$PROJECT_DIR$/blogger/README.md" />
+        <option value="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
+        <option value="$PROJECT_DIR$/blogger/app/models/article.rb" />
+        <option value="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
       </list>
     </option>
   </component>
@@ -268,8 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,58 +271,15 @@
               <item name="odinproject" type="462c0819:PsiDirectoryNode" />
               <item name="blogger" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
-              <item name="blogger" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,7 +592,8 @@
       <workItem from="1532449387797" duration="2568000" />
       <workItem from="1532491936060" duration="3469000" />
       <workItem from="1532503989267" duration="1238000" />
-      <workItem from="1532572278646" duration="10990000" />
+      <workItem from="1532572278646" duration="19309000" />
+      <workItem from="1532977712959" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="Changed repos">
       <created>1531709145007</created>
@@ -820,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532495390022</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Completed I3">
+      <created>1532806247012</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1532806247012</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,18 +799,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147674000" />
+    <option name="totallyTimeSpent" value="157286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48508635" sideWeight="0.5151286" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48508635" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39403453" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2967033" sideWeight="0.48940998" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -879,7 +823,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -939,7 +882,9 @@
     <MESSAGE value="Completed all exercises, 68/68 tests passed." />
     <MESSAGE value="Completed section I1 of Blogger project" />
     <MESSAGE value="Completed section I2 of Blogger project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed section I2 of Blogger project" />
+    <MESSAGE value="Completed I3" />
+    <MESSAGE value="Completed I4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed I4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,34 +893,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript-exercises-master/caesar/caesar.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calculator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="151" column="1" lean-forward="false" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_ruby/Gemfile" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/00_hello/hello_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/01_temperature/index.html" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/01_temperature/temperature.rb" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/01_temperature/temperature_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/02_calculator/calculator.rb" />
-    <entry file="file://$PROJECT_DIR$/learn_ruby/02_calculator/calculator_spec.rb" />
     <entry file="file://$PROJECT_DIR$/javascript-exercises-master/pig_latin/pigLatin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1000,13 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1026,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-195">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="149" column="162" lean-forward="true" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="162" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,23 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,19 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,14 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1182,26 +1049,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/models/tag.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1214,18 +1079,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/models/tag.rb">
+    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.6/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="119">
+          <caret line="430" column="0" lean-forward="true" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/RackMultipart20180729-1568-10yk6ix.png" />
+    <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="42" column="53" lean-forward="true" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="74" lean-forward="false" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogger/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding />
         </state>
       </provider>
