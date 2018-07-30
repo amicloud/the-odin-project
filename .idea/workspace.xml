@@ -1,163 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="Changed folder structure">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/.generators" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/blogger.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/markdown-navigator.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/markdown-navigator/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Gemfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Gemfile.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Rakefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/config/manifest.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/images/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/application.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/articles.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/author_sessions.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/channels/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/comments.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/tags.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/author_sessions.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/comments.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/screen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/tags.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/channels/application_cable/channel.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/channels/application_cable/connection.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/application_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/author_sessions_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/comments_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/concerns/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/application_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/author_sessions_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/authors_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/comments_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/tags_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/jobs/application_job.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/mailers/application_mailer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/application_record.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/article.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/author.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/comment.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/concerns/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tag.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tagging.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_comment.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/author_sessions/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/_author.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/edit.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/index.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/show.json.jbuilder" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.text.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/bundle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/rails" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/rake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/setup" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/update" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/yarn" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config.ru" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/application.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/boot.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/cable.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/database.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environment.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/development.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/production.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/application_controller_renderer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/assets.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/backtrace_silencers.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/cookies_serializer.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/filter_parameter_logging.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/inflections.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/mime_types.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/sorcery.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/wrap_parameters.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/locales/en.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/puma.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/routes.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/secrets.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180724093512_create_articles.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180725042122_create_comments.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025812_create_tags.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025907_create_taggings.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180730020458_sorcery_core.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/schema.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/seeds.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/lib/assets/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/lib/tasks/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/log/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/422.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/500.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/apple-touch-icon-precomposed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/robots.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/application_system_test_case.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/articles_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/author_sessions_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/authors_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/comments_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/tags_controller_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/articles.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/authors.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/comments.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/files/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/taggings.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/tags.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/helpers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/integration/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/mailers/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/article_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/author_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/comment_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tag_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tagging_test.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/system/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/test_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/tmp/.keep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/vendor/.keep" />
+    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/.generators" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/.rakeTasks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/blogger.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/markdown-navigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/Gemfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/Gemfile.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/Rakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/config/manifest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/images/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/articles.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/author_sessions.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/cable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/channels/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/comments.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/javascripts/tags.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/application.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/articles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/author_sessions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/comments.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/screen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/styles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/assets/stylesheets/tags.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/channels/application_cable/channel.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/channels/application_cable/connection.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/application_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/articles_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/author_sessions_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/authors_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/comments_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/controllers/tags_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/application_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/articles_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/author_sessions_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/authors_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/comments_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/helpers/tags_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/jobs/application_job.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/mailers/application_mailer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/application_record.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/article.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/author.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/comment.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/tag.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/models/tagging.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/_comment.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/edit.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/articles/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/author_sessions/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/_author.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/edit.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/index.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/authors/show.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/comments/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/layouts/application.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/layouts/mailer.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/layouts/mailer.text.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/tags/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/app/views/tags/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/bundle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/rails" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/rake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/setup" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/update" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/bin/yarn" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config.ru" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/application.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/boot.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/cable.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/database.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/environment.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/environments/development.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/environments/production.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/environments/test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/application_controller_renderer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/assets.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/backtrace_silencers.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/cookies_serializer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/filter_parameter_logging.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/inflections.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/mime_types.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/sorcery.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/initializers/wrap_parameters.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/locales/en.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/puma.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/routes.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/config/secrets.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180724093512_create_articles.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180725042122_create_comments.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180726025812_create_tags.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180726025907_create_taggings.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/migrate/20180730020458_sorcery_core.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/schema.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/db/seeds.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/lib/assets/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/lib/tasks/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/log/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/422.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/500.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/apple-touch-icon-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/public/robots.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/application_system_test_case.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/articles_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/author_sessions_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/authors_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/comments_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/controllers/tags_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/articles.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/authors.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/comments.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/files/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/taggings.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/fixtures/tags.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/helpers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/integration/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/mailers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/article_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/author_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/comment_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/tag_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/models/tagging_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/system/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/test/test_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/tmp/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger/vendor/.keep" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web-dev-101/blogger" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/.generators" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/blogger.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/markdown-navigator.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/Rakefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/config/manifest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/images/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/application.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/articles.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/author_sessions.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/channels/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/comments.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/tags.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/author_sessions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/comments.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/screen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/tags.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/channels/application_cable/channel.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/channels/application_cable/connection.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/application_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/author_sessions_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/comments_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/application_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/author_sessions_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/authors_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/comments_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/tags_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/jobs/application_job.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/mailers/application_mailer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/application_record.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/article.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/author.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/comment.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/tag.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/models/tagging.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/_comment.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/author_sessions/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/_author.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/edit.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/index.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/new.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/show.json.jbuilder" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.text.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/bundle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/rails" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/rake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/update" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/bin/yarn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config.ru" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/application.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/boot.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/cable.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/database.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environment.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/development.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/production.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/environments/test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/application_controller_renderer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/assets.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/inflections.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/mime_types.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/sorcery.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/locales/en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/puma.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/routes.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/config/secrets.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180724093512_create_articles.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180725042122_create_comments.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180726025812_create_tags.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180726025907_create_taggings.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180730020458_sorcery_core.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/schema.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/db/seeds.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/lib/assets/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/lib/tasks/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/log/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/422.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/apple-touch-icon-precomposed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/application_system_test_case.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/articles_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/author_sessions_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/authors_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/comments_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/tags_controller_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/articles.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/authors.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/comments.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/files/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/taggings.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/tags.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/helpers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/integration/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/mailers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/article_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/author_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/comment_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/tag_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/models/tagging_test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/system/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/test/test_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/tmp/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/blogger/vendor/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -201,11 +355,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-68">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -260,7 +424,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/calculator/calculator.css" />
         <option value="$PROJECT_DIR$/learn_ruby/00_hello/hello_spec.rb" />
         <option value="$PROJECT_DIR$/learn_ruby/00_hello/hello.rb" />
         <option value="$PROJECT_DIR$/learn_ruby/01_temperature/temperature_spec.rb" />
@@ -311,6 +474,7 @@
         <option value="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -577,7 +741,7 @@
       <workItem from="1532491936060" duration="3469000" />
       <workItem from="1532503989267" duration="1238000" />
       <workItem from="1532572278646" duration="19309000" />
-      <workItem from="1532977712959" duration="7869000" />
+      <workItem from="1532977712959" duration="8161000" />
     </task>
     <task id="LOCAL-00001" summary="Changed repos">
       <created>1531709145007</created>
@@ -768,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532989189825</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Issues with submodule on git....">
+      <created>1532989798125</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532989798125</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -804,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163862000" />
+    <option name="totallyTimeSpent" value="164154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -891,7 +1062,8 @@
     <MESSAGE value="Completed I4" />
     <MESSAGE value="Completed I5" />
     <MESSAGE value="Changed folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed folder structure" />
+    <MESSAGE value="Issues with submodule on git...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Issues with submodule on git...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,14 +1072,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-dev-101/sketchpad/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-dev-101/calculator/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -982,14 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="150" lean-forward="false" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1299,6 +1455,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
