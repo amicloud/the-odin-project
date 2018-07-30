@@ -1,286 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="Completed I5">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web-dev-101/blogger" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/odinproject.iml" afterPath="$PROJECT_DIR$/.idea/odinproject.iml" />
+    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="Changed folder structure">
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/.generators" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/blogger.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources.local.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/markdown-navigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Gemfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Gemfile.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/Rakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/config/manifest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/images/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/articles.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/author_sessions.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/channels/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/comments.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/javascripts/tags.coffee" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/author_sessions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/comments.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/screen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/assets/stylesheets/tags.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/channels/application_cable/channel.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/channels/application_cable/connection.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/application_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/author_sessions_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/comments_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/application_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/author_sessions_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/authors_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/comments_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/helpers/tags_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/jobs/application_job.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/mailers/application_mailer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/application_record.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/article.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/author.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/comment.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/concerns/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tag.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/models/tagging.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_comment.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/author_sessions/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/_author.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/edit.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/index.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/new.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/authors/show.json.jbuilder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.text.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/bundle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/rails" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/rake" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/setup" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/update" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/bin/yarn" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config.ru" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/application.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/boot.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/cable.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/database.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environment.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/development.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/production.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/environments/test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/application_controller_renderer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/assets.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/backtrace_silencers.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/cookies_serializer.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/filter_parameter_logging.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/inflections.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/mime_types.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/sorcery.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/initializers/wrap_parameters.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/locales/en.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/puma.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/routes.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/config/secrets.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180724093512_create_articles.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180725042122_create_comments.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025812_create_tags.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180726025907_create_taggings.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/migrate/20180730020458_sorcery_core.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/schema.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/db/seeds.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/lib/assets/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/lib/tasks/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/log/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/422.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/500.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/apple-touch-icon-precomposed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/public/robots.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/application_system_test_case.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/articles_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/author_sessions_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/authors_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/comments_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/controllers/tags_controller_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/articles.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/authors.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/comments.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/files/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/taggings.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/fixtures/tags.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/helpers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/integration/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/mailers/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/article_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/author_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/comment_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tag_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/models/tagging_test.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/system/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/test/test_helper.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/tmp/.keep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blogger/vendor/.keep" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blogger/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/.generators" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/.rakeTasks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/blogger.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources.local.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/dataSources/12eb06b7-2f18-413c-97da-1ebd158e9a83/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/markdown-navigator.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/Gemfile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/Gemfile.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/Rakefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/config/manifest.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/images/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/application.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/articles.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/author_sessions.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/cable.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/channels/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/comments.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/javascripts/tags.coffee" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/author_sessions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/comments.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/screen.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/styles.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/assets/stylesheets/tags.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/channels/application_cable/channel.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/channels/application_cable/connection.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/application_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/author_sessions_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/comments_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/concerns/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/controllers/tags_controller.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/application_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/articles_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/author_sessions_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/authors_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/comments_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/helpers/tags_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/jobs/application_job.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/mailers/application_mailer.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/application_record.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/article.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/author.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/comment.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/concerns/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/tag.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/models/tagging.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/_comment.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/_form.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/edit.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/index.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/new.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/articles/show.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/author_sessions/new.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/_author.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/_form.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/edit.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/index.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/index.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/new.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/show.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/authors/show.json.jbuilder" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/comments/_form.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/application.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/layouts/mailer.text.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/tags/index.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/app/views/tags/show.html.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/bundle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/rails" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/rake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/setup" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/update" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/bin/yarn" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config.ru" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/application.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/boot.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/cable.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/database.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/environment.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/environments/development.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/environments/production.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/environments/test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/application_controller_renderer.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/assets.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/backtrace_silencers.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/cookies_serializer.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/filter_parameter_logging.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/inflections.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/mime_types.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/sorcery.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/initializers/wrap_parameters.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/locales/en.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/puma.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/routes.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/config/secrets.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180724093512_create_articles.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180725042122_create_comments.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180726025812_create_tags.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180726025907_create_taggings.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180730020454_add_paperclip_fields_to_article.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/migrate/20180730020458_sorcery_core.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/schema.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/db/seeds.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/lib/assets/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/lib/tasks/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/log/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/422.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/apple-touch-icon-precomposed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/public/robots.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/application_system_test_case.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/articles_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/author_sessions_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/authors_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/comments_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/controllers/tags_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/articles.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/authors.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/comments.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/files/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/taggings.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/fixtures/tags.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/helpers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/integration/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/mailers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/article_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/author_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/comment_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/tag_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/models/tagging_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/system/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/test/test_helper.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/tmp/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blogger/vendor/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.css" afterPath="$PROJECT_DIR$/web-dev-101/calculator/calculator.css" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.html" afterPath="$PROJECT_DIR$/web-dev-101/calculator/calculator.html" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.js" afterPath="$PROJECT_DIR$/web-dev-101/calculator/calculator.js" />
-      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/web-dev-101/coverage/.last_run.json" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json.lock" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/coverage/.resultset.json.lock" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.gitignore" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/javascript-exercises-master.iml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/javascript-exercises-master.iml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/markdown-navigator.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/markdown-navigator/profiles_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/misc.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/modules.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/vcs.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/caesar/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/caesar/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/caesar/caesar.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/caesar/caesar.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/caesar/caesar.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/caesar/caesar.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/calculator/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/calculator/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/calculator/calculator.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/calculator/calculator.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/calculator/calculator.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/calculator/calculator.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/dom-manipulation/index.html" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/dom-manipulation/index.html" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/dom-manipulation/script.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/dom-manipulation/script.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/fibonacci/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/fibonacci/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/fibonacci/fibonacci.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/fibonacci/fibonacci.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/fibonacci/fibonacci.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/fibonacci/fibonacci.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.editorconfig" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.editorconfig" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.eslintignore" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.eslintignore" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.gitattributes" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.gitattributes" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.gitignore" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.travis.yml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/.yo-rc.json" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/.yo-rc.json" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/LICENSE" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/generators/app/index.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/generators/app/index.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/generators/app/templates/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/generators/app/templates/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/generators/app/templates/dummyfile.txt" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/generators/app/templates/dummyfile.txt" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/generators/app/templates/title.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/generators/app/templates/title.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/generators/app/templates/title.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/generators/app/templates/title.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/package-lock.json" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/generator-exercise/package.json" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/helloWorld/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/helloWorld/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/helloWorld/helloWorld.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/helloWorld/helloWorld.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/helloWorld/helloWorld.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/helloWorld/helloWorld.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/leapYears/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/leapYears/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/leapYears/leapYears.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/leapYears/leapYears.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/leapYears/leapYears.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/leapYears/leapYears.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/palindromes/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/palindromes/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/palindromes/palindromes.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/palindromes/palindromes.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/palindromes/palindromes.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/palindromes/palindromes.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/pig_latin/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/pig_latin/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/pig_latin/pigLatin.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/pig_latin/pigLatin.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/pig_latin/pigLatin.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/pig_latin/pigLatin.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/removeFromArray/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/removeFromArray/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/removeFromArray/removeFromArray.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/removeFromArray/removeFromArray.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/removeFromArray/removeFromArray.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/removeFromArray/removeFromArray.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/repeatString/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/repeatString/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/repeatString/repeatString.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/repeatString/repeatString.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/repeatString/repeatString.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/repeatString/repeatString.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/reverseString/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/reverseString/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/reverseString/reverseString.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/reverseString/reverseString.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/reverseString/reverseString.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/reverseString/reverseString.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/snakeCase/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/snakeCase/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/snakeCase/snakeCase.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/snakeCase/snakeCase.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/snakeCase/snakeCase.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/snakeCase/snakeCase.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/sumAll/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/sumAll/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/sumAll/sumAll.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/sumAll/sumAll.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/sumAll/sumAll.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/sumAll/sumAll.spec.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/tempConversion/README.md" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/tempConversion/README.md" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/tempConversion/tempConversion.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/tempConversion/tempConversion.js" />
-      <change beforePath="$PROJECT_DIR$/javascript-exercises-master/tempConversion/tempConversion.spec.js" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/tempConversion/tempConversion.spec.js" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/.bundle/config" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/.bundle/config" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/.gitignore" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/.rspec" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/.rspec" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/00_hello/hello.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/00_hello/hello.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/00_hello/hello_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/00_hello/hello_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/00_hello/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/00_hello/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/01_temperature/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/01_temperature/temperature.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature/temperature.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/01_temperature/temperature_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature/temperature_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/02_calculator/calculator.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/calculator.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/02_calculator/calculator_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/calculator_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/02_calculator/coverage/.last_run.json" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/03_simon_says/coverage/.last_run.json" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/02_calculator/coverage/.resultset.json.lock" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/03_simon_says/coverage/.resultset.json.lock" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/02_calculator/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/03_simon_says/coverage/.last_run.json" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/coverage/.last_run.json" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/03_simon_says/coverage/.resultset.json.lock" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/coverage/.resultset.json.lock" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/03_simon_says/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/03_simon_says/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/03_simon_says/simon_says.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/03_simon_says/simon_says.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/03_simon_says/simon_says_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/03_simon_says/simon_says_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/04_pig_latin/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/04_pig_latin/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/04_pig_latin/pig_latin.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/04_pig_latin/pig_latin.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/04_pig_latin/pig_latin_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/04_pig_latin/pig_latin_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/05_book_titles/book.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/book.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/05_book_titles/book_titles_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/book_titles_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/05_book_titles/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/06_timer/index.html" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/06_timer/index.html" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/06_timer/timer.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/06_timer/timer.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/06_timer/timer_spec.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/06_timer/timer_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/Gemfile" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/Gemfile.lock" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/README.md" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/README.md" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/Rakefile" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/Rakefile" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/assets/style.css" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/assets/style.css" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/coverage/.last_run.json" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/coverage/.last_run.json" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/coverage/.resultset.json.lock" afterPath="$PROJECT_DIR$/web-dev-101/coverage/.resultset.json.lock" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/rspec_config.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/rspec_config.rb" />
-      <change beforePath="$PROJECT_DIR$/learn-ruby/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/web-dev-101/learn-ruby/spec/spec_helper.rb" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/markdown-navigator.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/markdown-navigator/profiles_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/misc.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/modules.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/rockpaperscissors.iml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/rockpaperscissors.iml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/vcs.xml" afterPath="$PROJECT_DIR$/web-dev-101/javascript-exercises-master/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/rockpaperscissors.css" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/rockpaperscissors.css" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/rockpaperscissors.html" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/rockpaperscissors.html" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors/roshambo.js" afterPath="$PROJECT_DIR$/web-dev-101/rockpaperscissors/roshambo.js" />
-      <change beforePath="$PROJECT_DIR$/ruby-basics/project_euler_problems.rb" afterPath="$PROJECT_DIR$/web-dev-101/ruby-basics/project_euler_problems.rb" />
-      <change beforePath="$PROJECT_DIR$/sketchpad/sketch.js" afterPath="$PROJECT_DIR$/web-dev-101/sketchpad/sketch.js" />
-      <change beforePath="$PROJECT_DIR$/sketchpad/sketchpad.css" afterPath="$PROJECT_DIR$/web-dev-101/sketchpad/sketchpad.css" />
-      <change beforePath="$PROJECT_DIR$/sketchpad/sketchpad.html" afterPath="$PROJECT_DIR$/web-dev-101/sketchpad/sketchpad.html" />
+      <change beforePath="$PROJECT_DIR$/web-dev-101/blogger" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,7 +190,28 @@
     <SUITE FILE_PATH="coverage/odinproject@_translate__odinproject.coverage" NAME="#translate: odinproject Coverage Results" MODIFIED="1532415911081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/04_pig_latin" MODULE_NAME="odinproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1547">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -490,7 +388,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="project.settings.patched" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="articlesc&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/articles_controller.rb&#10;comments_&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/comments_controller.rb&#10;tags_c&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/tags_controller.rb&#10;route&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;routes&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;routes.&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;author.rb&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/models/author.rb&#10;routes.rb&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;articlesc&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/articles_controller.rb&#10;comments_&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/comments_controller.rb&#10;tags_c&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/controllers/tags_controller.rb&#10;route&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;routes&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;routes.&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb&#10;author.rb&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/app/models/author.rb&#10;routes.rb&#9;FILE&#9;file://C:/Users/wsmit/RubymineProjects/odinproject/blogger/config/routes.rb" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -679,7 +577,7 @@
       <workItem from="1532491936060" duration="3469000" />
       <workItem from="1532503989267" duration="1238000" />
       <workItem from="1532572278646" duration="19309000" />
-      <workItem from="1532977712959" duration="7229000" />
+      <workItem from="1532977712959" duration="7869000" />
     </task>
     <task id="LOCAL-00001" summary="Changed repos">
       <created>1531709145007</created>
@@ -863,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532983965657</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Changed folder structure">
+      <created>1532989189825</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1532989189825</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163222000" />
+    <option name="totallyTimeSpent" value="163862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -910,8 +815,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48508635" sideWeight="0.5151286" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39089483" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39089483" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78335947" sideWeight="0.48940998" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -985,7 +890,8 @@
     <MESSAGE value="Completed I3" />
     <MESSAGE value="Completed I4" />
     <MESSAGE value="Completed I5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed I5" />
+    <MESSAGE value="Changed folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed folder structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -994,22 +900,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/06_timer/timer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/02_calculator/calculator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-dev-101/sketchpad/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1393,6 +1283,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1547">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
