@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="Fixed lin">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar_spec.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/coverage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker_spec.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,55 +23,77 @@
   </component>
   <component name="ChangesViewManager" flattened_view="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/odinproject@Simon_says_echo__odinproject.coverage" NAME="Simon says echo: odinproject Coverage Results" MODIFIED="1532412663584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/03_simon_says" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_caesar__odinproject.coverage" NAME="All specs in caesar: odinproject Coverage Results" MODIFIED="1532996645294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_tests_in_00_hello__odinproject.coverage" NAME="All tests in 00_hello: odinproject Coverage Results" MODIFIED="1532417718832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_odinproject__odinproject.coverage" NAME="All specs in odinproject: odinproject Coverage Results" MODIFIED="1532997006431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Run_spec__calculator_spec___odinproject.coverage" NAME="Run spec 'calculator_spec': odinproject Coverage Results" MODIFIED="1532412549210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Run_spec__substrings_spec___odinproject.coverage" NAME="Run spec 'substrings_spec': odinproject Coverage Results" MODIFIED="1532996556896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/substrings" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Works_correctly_should_gets_same_answer_as_example__odinproject.coverage" NAME="Works correctly should gets same answer as example: odinproject Coverage Results" MODIFIED="1532994786493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@caesar.coverage" NAME="caesar Coverage Results" MODIFIED="1532992364351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Works_with_positve_offset__odinproject.coverage" NAME="Works with positve offset: odinproject Coverage Results" MODIFIED="1532992790364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_building_blocks__odinproject.coverage" NAME="All specs in building-blocks: odinproject Coverage Results" MODIFIED="1532996738556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@add_adds_0_and_0__odinproject.coverage" NAME="add adds 0 and 0: odinproject Coverage Results" MODIFIED="1532410866619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Works_with_single_words__odinproject.coverage" NAME="Works with single words: odinproject Coverage Results" MODIFIED="1532996436262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/substrings" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_learn_ruby__odinproject.coverage" NAME="All specs in learn-ruby: odinproject Coverage Results" MODIFIED="1532996990748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web-dev-101/learn-ruby" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1532410155680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@project_euler_problems.coverage" NAME="project_euler_problems Coverage Results" MODIFIED="1532409471878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-basics" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Development__blogger.coverage" NAME="Development: blogger Coverage Results" MODIFIED="1532983026496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blogger" MODULE_NAME="blogger" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_substrings__odinproject.coverage" NAME="All specs in substrings: odinproject Coverage Results" MODIFIED="1532996679955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/substrings" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Run_spec__temperature_spec___odinproject.coverage" NAME="Run spec 'temperature_spec': odinproject Coverage Results" MODIFIED="1532992574919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Raises_error_with_negative_offset__odinproject.coverage" NAME="Raises error with negative offset: odinproject Coverage Results" MODIFIED="1532993074431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Simon_says_echo__odinproject.coverage" NAME="Simon says echo: odinproject Coverage Results" MODIFIED="1532412663584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/03_simon_says" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Run_spec__book_titles_spec___odinproject.coverage" NAME="Run spec 'book_titles_spec': odinproject Coverage Results" MODIFIED="1532416609779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/05_book_titles" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Timer__odinproject.coverage" NAME="Timer: odinproject Coverage Results" MODIFIED="1532417648572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/06_timer" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_odinproject__odinproject.coverage" NAME="All specs in odinproject: odinproject Coverage Results" MODIFIED="1532418626310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_specs_in_01_temperature__odinproject.coverage" NAME="All specs in 01_temperature: odinproject Coverage Results" MODIFIED="1532417728025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/01_temperature" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@Run_spec__calculator_spec___odinproject.coverage" NAME="Run spec 'calculator_spec': odinproject Coverage Results" MODIFIED="1532412549210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_specs_in_02_calculator__odinproject.coverage" NAME="All specs in 02_calculator: odinproject Coverage Results" MODIFIED="1532418255676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@Works_with_positve_offset_should_match_a_result_from_online_tool__odinproject.coverage" NAME="Works with positve offset should match a result from online tool: odinproject Coverage Results" MODIFIED="1532992784436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@temperature_conversion_functions__ftoc__odinproject.coverage" NAME="temperature conversion functions #ftoc: odinproject Coverage Results" MODIFIED="1532410610504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/01_temperature" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_tests_in_learn_ruby__odinproject.coverage" NAME="All tests in learn_ruby: odinproject Coverage Results" MODIFIED="1532417849604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_specs_in_03_simon_says__odinproject.coverage" NAME="All specs in 03_simon_says: odinproject Coverage Results" MODIFIED="1532418271709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/03_simon_says" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@add_adds_0_and_0__odinproject.coverage" NAME="add adds 0 and 0: odinproject Coverage Results" MODIFIED="1532410866619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_stock_picker__odinproject.coverage" NAME="All specs in stock-picker: odinproject Coverage Results" MODIFIED="1532996671895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Run_spec__hello_spec___odinproject.coverage" NAME="Run spec 'hello_spec': odinproject Coverage Results" MODIFIED="1532410530419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/00_hello" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_learn_ruby__odinproject.coverage" NAME="All specs in learn_ruby: odinproject Coverage Results" MODIFIED="1532419395146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1532410155680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@project_euler_problems.coverage" NAME="project_euler_problems Coverage Results" MODIFIED="1532409471878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-basics" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@temperature_conversion_functions__odinproject.coverage" NAME="temperature conversion functions: odinproject Coverage Results" MODIFIED="1532412737442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/01_temperature" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@Development__blogger.coverage" NAME="Development: blogger Coverage Results" MODIFIED="1532983026496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blogger" MODULE_NAME="blogger" />
+    <SUITE FILE_PATH="coverage/odinproject@Works_correctly__odinproject.coverage" NAME="Works correctly: odinproject Coverage Results" MODIFIED="1532996218450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Run_spec__simon_says_spec___odinproject.coverage" NAME="Run spec 'simon_says_spec': odinproject Coverage Results" MODIFIED="1532415113348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/03_simon_says" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@_translate__odinproject.coverage" NAME="#translate: odinproject Coverage Results" MODIFIED="1532415911081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/04_pig_latin" MODULE_NAME="odinproject" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\wsmit\RubymineProjects\odinproject\coverage" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package-lock.json">
+      <file leaf-file-name="substrings.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1547">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
+      <file leaf-file-name="substrings_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -73,9 +105,10 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Ruby Class Template" />
         <option value="HTML File" />
         <option value="Erb File" />
+        <option value="Ruby Class Template" />
+        <option value="RSpec Test Template" />
       </list>
     </option>
   </component>
@@ -115,16 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learn_ruby/00_hello/hello_spec.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/00_hello/hello.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/01_temperature/temperature_spec.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/01_temperature/temperature.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/02_calculator/calculator_spec.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/02_calculator/calculator.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/03_simon_says/simon_says.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/04_pig_latin/pig_latin_spec.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/04_pig_latin/pig_latin.rb" />
-        <option value="$PROJECT_DIR$/learn_ruby/05_book_titles/book_titles_spec.rb" />
         <option value="$PROJECT_DIR$/learn_ruby/05_book_titles/book.rb" />
         <option value="$PROJECT_DIR$/learn_ruby/06_timer/timer_spec.rb" />
         <option value="$PROJECT_DIR$/learn_ruby/06_timer/timer.rb" />
@@ -166,6 +189,16 @@
         <option value="$PROJECT_DIR$/blogger/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/blogger/app/controllers/authors_controller.rb" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/caeser/caeser.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar_spec.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/readme.md" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker_spec.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings.rb" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ruby-programming/building-blocks/readme.md" />
       </list>
     </option>
   </component>
@@ -217,6 +250,17 @@
               <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="odinproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ruby-programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odinproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odinproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ruby-programming" type="462c0819:PsiDirectoryNode" />
+              <item name="building-blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +278,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript 1.8" />
-    <property name="last.edited.regexp" value="1.2e+2" />
+    <property name="last.edited.regexp" value="a3" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="project.settings.patched" value="true" />
@@ -267,12 +311,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="All specs in 02_calculator: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.All specs in odinproject: odinproject">
+    <configuration name="All specs in building-blocks: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="odinproject" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/learn_ruby/02_calculator" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/ruby-programming/building-blocks" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -282,7 +326,7 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/learn_ruby/02_calculator" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/ruby-programming/building-blocks" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
@@ -296,11 +340,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="All specs in 03_simon_says: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="All specs in learn-ruby: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="odinproject" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/learn_ruby/03_simon_says" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/web-dev-101/learn-ruby" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -310,35 +354,7 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/learn_ruby/03_simon_says" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="All specs in learn_ruby: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="odinproject" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/learn_ruby" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/learn_ruby" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/web-dev-101/learn-ruby" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
@@ -380,18 +396,76 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in learn_ruby: odinproject" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in 03_simon_says: odinproject" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in 02_calculator: odinproject" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
+    <configuration name="All specs in stock-picker: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="odinproject" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/ruby-programming/building-blocks/stock-picker" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/ruby-programming/building-blocks/stock-picker" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="All specs in substrings: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="odinproject" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/ruby-programming/building-blocks/substrings" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/ruby-programming/building-blocks/substrings" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in stock-picker: odinproject" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in substrings: odinproject" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in building-blocks: odinproject" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in learn-ruby: odinproject" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in learn_ruby: odinproject" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in 03_simon_says: odinproject" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in 02_calculator: odinproject" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in learn-ruby: odinproject" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in building-blocks: odinproject" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in substrings: odinproject" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in stock-picker: odinproject" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +501,7 @@
       <workItem from="1532491936060" duration="3469000" />
       <workItem from="1532503989267" duration="1238000" />
       <workItem from="1532572278646" duration="19309000" />
-      <workItem from="1532977712959" duration="8345000" />
+      <workItem from="1532977712959" duration="15239000" />
     </task>
     <task id="LOCAL-00001" summary="Changed repos">
       <created>1531709145007</created>
@@ -636,54 +710,54 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_03_simon_says__odinproject - 2018.07.24 at 00h 42m 29s.xml">
-      <configuration name="All specs in 03_simon_says: odinproject" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_building-blocks__odinproject - 2018.07.30 at 17h 25m 40s.xml">
+      <configuration name="All specs in building-blocks: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_03_simon_says__odinproject - 2018.07.24 at 00h 43m 36s.xml">
-      <configuration name="All specs in 03_simon_says: odinproject" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_caesar__odinproject - 2018.07.30 at 17h 24m 08s.xml">
+      <configuration name="All specs in caesar: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_03_simon_says__odinproject - 2018.07.24 at 00h 44m 33s.xml">
-      <configuration name="All specs in 03_simon_says: odinproject" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_learn-ruby__odinproject - 2018.07.30 at 17h 29m 58s.xml">
+      <configuration name="All specs in learn-ruby: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_learn_ruby__odinproject - 2018.07.24 at 00h 38m 39s.xml">
-      <configuration name="All specs in learn_ruby: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_learn_ruby__odinproject - 2018.07.24 at 00h 42m 53s.xml">
-      <configuration name="All specs in learn_ruby: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_learn_ruby__odinproject - 2018.07.24 at 00h 43m 16s.xml">
-      <configuration name="All specs in learn_ruby: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_learn_ruby__odinproject - 2018.07.24 at 00h 44m 48s.xml">
-      <configuration name="All specs in learn_ruby: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_learn_ruby__odinproject - 2018.07.24 at 01h 03m 19s.xml">
-      <configuration name="All specs in learn_ruby: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_odinproject__odinproject - 2018.07.24 at 00h 50m 27s.xml">
+    <history-entry file="All_specs_in_odinproject__odinproject - 2018.07.30 at 17h 30m 09s.xml">
       <configuration name="All specs in odinproject: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_tests_in_learn_ruby__odinproject - 2018.07.24 at 00h 37m 31s.xml">
-      <configuration name="All tests in learn_ruby: odinproject" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="All_specs_in_stock-picker__odinproject - 2018.07.30 at 17h 24m 33s.xml">
+      <configuration name="All specs in stock-picker: odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_substrings__odinproject - 2018.07.30 at 17h 24m 41s.xml">
+      <configuration name="All specs in substrings: odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'substrings_spec'__odinproject - 2018.07.30 at 17h 22m 38s.xml">
+      <configuration name="Run spec 'substrings_spec': odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Works_with_single_words__odinproject - 2018.07.30 at 17h 19m 34s.xml">
+      <configuration name="Works with single words: odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Works_with_single_words__odinproject - 2018.07.30 at 17h 19m 57s.xml">
+      <configuration name="Works with single words: odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Works_with_single_words__odinproject - 2018.07.30 at 17h 20m 37s.xml">
+      <configuration name="Works with single words: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164338000" />
+    <option name="totallyTimeSpent" value="171232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48508635" sideWeight="0.5151286" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78178966" sideWeight="0.5136157" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39089483" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28257456" sideWeight="0.48638427" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23529412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78335947" sideWeight="0.48940998" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25955415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,7 +765,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -767,108 +840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-dev-101/calculator/calculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="149" column="162" lean-forward="true" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="162" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-dev-101/ruby-basics/project_euler_problems.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/book.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/04_pig_latin/pig_latin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/helpers/comments_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/articles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/models/tagging.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/models/tag.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/views/tags/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="150" lean-forward="false" selection-start-line="4" selection-start-column="150" selection-end-line="4" selection-end-column="150" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogger/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.6/lib/action_view/helpers/form_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="430" column="0" lean-forward="true" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/RackMultipart20180729-1568-10yk6ix.png" />
-    <entry file="file://$PROJECT_DIR$/blogger/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogger/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1146,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1167,11 +1130,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/javascript-exercises-master/generator-exercise/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature/temperature_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/caesar/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/01_temperature/temperature.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/book_titles_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/learn-ruby/05_book_titles/book.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-dev-101/ruby-basics/project_euler_problems.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
