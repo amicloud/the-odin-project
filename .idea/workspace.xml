@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="Fixed lin">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/caesar_spec.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/caesar/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/coverage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker_spec.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb" />
+    <list default="true" id="bbf1c84e-80c3-496a-86cb-9ecb850d6102" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/application.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/colorbox/border.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/colorbox/controls.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/colorbox/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/colorbox/loading_background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/favicon_green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/favicon_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/favicon_yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/magnify.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-icons_222222_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-icons_454545_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-icons_888888_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/assets/0.10.2/smoothness/images/ui-icons_cd0a0a_256x240.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ruby-programming/building-blocks/coverage.html" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/coverage.html" />
+      <change beforePath="$PROJECT_DIR$/ruby-programming/building-blocks/readme.md" afterPath="$PROJECT_DIR$/ruby-programming/building-blocks/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +47,7 @@
     <SUITE FILE_PATH="coverage/odinproject@Works_correctly_should_gets_same_answer_as_example__odinproject.coverage" NAME="Works correctly should gets same answer as example: odinproject Coverage Results" MODIFIED="1532994786493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@caesar.coverage" NAME="caesar Coverage Results" MODIFIED="1532992364351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Works_with_positve_offset__odinproject.coverage" NAME="Works with positve offset: odinproject Coverage Results" MODIFIED="1532992790364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/caesar" MODULE_NAME="odinproject" />
-    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_building_blocks__odinproject.coverage" NAME="All specs in building-blocks: odinproject Coverage Results" MODIFIED="1532996738556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks" MODULE_NAME="odinproject" />
+    <SUITE FILE_PATH="coverage/odinproject@All_specs_in_building_blocks__odinproject.coverage" NAME="All specs in building-blocks: odinproject Coverage Results" MODIFIED="1532997360425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@add_adds_0_and_0__odinproject.coverage" NAME="add adds 0 and 0: odinproject Coverage Results" MODIFIED="1532410866619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn_ruby/02_calculator" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@Works_with_single_words__odinproject.coverage" NAME="Works with single words: odinproject Coverage Results" MODIFIED="1532996436262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby-programming/building-blocks/substrings" MODULE_NAME="odinproject" />
     <SUITE FILE_PATH="coverage/odinproject@All_specs_in_learn_ruby__odinproject.coverage" NAME="All specs in learn-ruby: odinproject Coverage Results" MODIFIED="1532996990748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web-dev-101/learn-ruby" MODULE_NAME="odinproject" />
@@ -59,7 +75,7 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="C:\Users\wsmit\RubymineProjects\odinproject\coverage" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\wsmit\RubymineProjects\odinproject\ruby-programming\building-blocks" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -73,27 +89,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="substrings_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="substrings_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
             </state>
           </provider>
         </entry>
@@ -273,7 +274,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="c:/program files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn_ruby" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruby-programming/building-blocks" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -311,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.All specs in odinproject: odinproject">
+  <component name="RunManager" selected="RSpec.All specs in building-blocks: odinproject">
     <configuration name="All specs in building-blocks: odinproject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="odinproject" />
@@ -461,9 +462,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in learn-ruby: odinproject" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in building-blocks: odinproject" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in building-blocks: odinproject" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in odinproject: odinproject" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in learn-ruby: odinproject" />
         <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in substrings: odinproject" />
         <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in stock-picker: odinproject" />
       </list>
@@ -501,7 +502,7 @@
       <workItem from="1532491936060" duration="3469000" />
       <workItem from="1532503989267" duration="1238000" />
       <workItem from="1532572278646" duration="19309000" />
-      <workItem from="1532977712959" duration="15239000" />
+      <workItem from="1532977712959" duration="15573000" />
     </task>
     <task id="LOCAL-00001" summary="Changed repos">
       <created>1531709145007</created>
@@ -706,11 +707,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532990101091</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Finished Building Blocks project">
+      <created>1532997178354</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1532997178354</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="All_specs_in_building-blocks__odinproject - 2018.07.30 at 17h 25m 40s.xml">
+      <configuration name="All specs in building-blocks: odinproject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_building-blocks__odinproject - 2018.07.30 at 17h 36m 06s.xml">
       <configuration name="All specs in building-blocks: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="All_specs_in_caesar__odinproject - 2018.07.30 at 17h 24m 08s.xml">
@@ -731,9 +742,6 @@
     <history-entry file="Run_spec_'substrings_spec'__odinproject - 2018.07.30 at 17h 22m 38s.xml">
       <configuration name="Run spec 'substrings_spec': odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Works_with_single_words__odinproject - 2018.07.30 at 17h 19m 34s.xml">
-      <configuration name="Works with single words: odinproject" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="Works_with_single_words__odinproject - 2018.07.30 at 17h 19m 57s.xml">
       <configuration name="Works with single words: odinproject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -742,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171232000" />
+    <option name="totallyTimeSpent" value="171566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -753,7 +761,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39089483" sideWeight="0.48487142" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28257456" sideWeight="0.48638427" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23298033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -806,7 +814,6 @@
       <path value="C:\Users\wsmit\RubymineProjects\odinproject\learn_ruby" />
       <path value="$PROJECT_DIR$/blogger" />
     </ignored-roots>
-    <MESSAGE value="Changed repos" />
     <MESSAGE value="Sketchpad project done" />
     <MESSAGE value="JS Exercise - Calculator completed.&#10;&#10;all tests passed on first run, :yeet:" />
     <MESSAGE value="JS Exercise - Palindromes completed.&#10;&#10;Would have passed all tests first run if I had remembered to call toLowerCase() on query lol" />
@@ -831,7 +838,8 @@
     <MESSAGE value="Changed folder structure" />
     <MESSAGE value="Issues with submodule on git...." />
     <MESSAGE value="Issues with submodule on git&#10;Updated github.io index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issues with submodule on git&#10;Updated github.io index page" />
+    <MESSAGE value="Finished Building Blocks project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Building Blocks project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1215,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/stock-picker/stock_picker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1259,12 +1259,20 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
-            <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <caret line="6" column="111" lean-forward="false" selection-start-line="6" selection-start-column="111" selection-end-line="6" selection-end-column="111" />
             <folding />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-programming/building-blocks/substrings/substrings_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
