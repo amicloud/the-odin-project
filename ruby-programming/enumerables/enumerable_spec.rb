@@ -1,24 +1,32 @@
 require_relative 'enumerable'
 
 describe 'my_each' do
+  input = [1, 2, 3, 4, 5]
   it 'should produce same results as #each' do
     my_result = ''
-    [1, 2, 3, 4, 5].my_each {|x| my_result += x.to_s}
-    expect(my_result).to match '12345'
+    correct_result = ''
+    input.each {|x| correct_result << x.to_s}
+    input.my_each {|x| my_result << x.to_s}
+    expect(my_result).to eq correct_result
   end
 end
 
 describe 'my_each_with_index' do
   it 'should produce same results as #each_with_index' do
-    my_result = ''
-    [1, 2, 3, 4, 5].my_each_with_index {|element, index| my_result += element.to_s + index.to_s}
-    expect(my_result).to match '1021324354'
+    input = [1, 2, 3, 4, 5]
+    my_result =''
+    correct_result = ''
+    input.each_with_index { |element, index| correct_result += element.to_s + index.to_s}
+    input.my_each_with_index {|element, index| my_result += element.to_s + index.to_s}
+    expect(my_result).to eq correct_result
   end
 end
 
 describe 'my_select' do
   it 'should produce same results as #select' do
-    expect([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].my_select {|x| x % 2 != 0}).to match_array [1, 3, 5, 7, 9]
+    input = (1..10)
+    odds = Proc.new {|x| x % 2 != 0}
+    expect(input.my_select &odds).to match_array input.select &odds
   end
 end
 
@@ -57,23 +65,24 @@ end
 describe 'my_count' do
   it 'should produce same results as #count' do
     expect([1, 2, 3, 4, 5].my_count).to eq 5
-    expect([1, 2].my_count).to eq 2
+    expect([].my_count).to eq 0
     expect([1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2].my_count).to eq 12
   end
 end
 
 describe 'my_map' do
+  input = (1..10)
+  add_2 = Proc.new {|x| x + 2}
+  correct_map = input.map &add_2
   it 'should produce same results as #map with block' do
-    expect([1, 2, 3, 4, 5].my_map {|x| x + 2}).to match_array [3, 4, 5, 6, 7]
+    expect(input.my_map &add_2).to match_array correct_map
   end
   it 'should accept a proc' do
-    proc = Proc.new {|x| x + 2}
-    expect([1, 2, 3, 4, 5].my_map proc).to match_array [3, 4, 5, 6, 7]
+    expect(input.my_map add_2).to match_array correct_map
   end
 
   it 'should only accept proc if both block and proc are given' do
-    proc = Proc.new {|x| x + 2}
-    expect([1, 2, 3, 4, 5].my_map(proc) {|x| x + 5}).to match_array [3, 4, 5, 6, 7]
+    expect(input.my_map(add_2) {|x| x + 5}).to match_array correct_map
   end
 end
 
